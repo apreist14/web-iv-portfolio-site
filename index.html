@@ -1,18 +1,22 @@
-<!doctype html>
+ <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
 <link href="style/main.css" rel="stylesheet" type="text/css">
+<link href="styles/foundation.css" rel="stylesheet" type="text/css">
+  <script src="js/vendor/modernizr.js"></script>
 </head>
 
 <body>
 	<header>
     	<nav>
-        	<a href="">Home</a>
-            <a href="">My Work</a>
-            <a href="">About Me</a>
-            <a href="">Lets Talk</a>
+        	<ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">My Work</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Lets Talk</a></li>
+            </ul>
         </nav>
      </header> 
        
@@ -20,6 +24,11 @@
        <!--my work-->
        <h1>ashley preister designs</h1>
        <h2>my work</h2>
+       
+       <div class="row">
+       		<div class="large-12 columns"><img src="http://placehold.it/350x150" alt=""></div>
+       </div>
+       
        
        <!--about me-->
        <h2>a little about me</h2>
@@ -29,7 +38,7 @@
          <!--what i like-->
          <h6>typography</h6>
          <h6>photography</h6>
-         <h6>typography</h6>
+         <h6>print</h6>
          
       <!--let's talk-->
       <h2>let's talk</h2>
@@ -44,5 +53,11 @@
         <p>ashleypdesigns@live.com</p>
         <p>402.920.1433</p>
     </footer>
+    
+        <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 </body>
 </html>
