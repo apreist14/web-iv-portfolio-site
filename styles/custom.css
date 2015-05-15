@@ -5,6 +5,14 @@ nav img {
 	width: 75px;
 }
 
+nav{
+	margin:10px;
+}
+
 input{
 	width:100%;
+}
+
+img{
+	margin:10px;
 }
