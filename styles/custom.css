@@ -17,3 +17,11 @@ img{
 	margin:10px;
 }
 
+img-hover{
+  display: block;
+  position: relative;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #652C90, #3A0256);
+}
