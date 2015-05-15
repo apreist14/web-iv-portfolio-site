@@ -25,3 +25,7 @@ img-hover{
   overflow: hidden;
   background: linear-gradient(to bottom, #652C90, #3A0256);
 }
+
+about-work{
+	margin:10px;
+}
