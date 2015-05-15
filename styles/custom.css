@@ -29,3 +29,44 @@ img-hover{
 about-work{
 	margin:10px;
 }
+
+.overlay {
+  width: auto;
+  height: auto;
+  position: relative;
+  -webkit-transition: all 0.2s;
+}
+
+.overlay img {
+  -webkit-transition: all 0.2s;
+}
+
+.overlay .magnifier {
+  display: block;
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  text-align: left;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+right: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  opacity: 0;
+  transform: scale(1);
+}
+
+.overlay:hover .magnifier {
+  opacity:2; 
+  transform: scale(1);
+
+  visibility: visible;
+}
+
+.overlay .magnifier .content {
+  width:100%;
+  position: relative;
+  top: 50%;
+  margin-top: 10px;
+}
