@@ -1,6 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
+<!--color-->
+h1{
+	color:#9fd9d8;
+}
+
+h2{
+	color:#006a91;
+}
+
+h3, h4{
+	color:#FFFFFF;
+}
+
+h6, p{
+	color:#073255;
+}
+
+
+
 nav img {
 	width: 75px;
 }
@@ -10,12 +29,15 @@ nav{
 }
 
 
+<!--contact form-->
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+	border-color:#97c641;
+	border-width:1.5px;
+}
 
 <!--hamburger navigation-->
 ul, li {margin:0;padding:0;}
 a {text-decoration:none;}
-
-h1 {font-size:1.5em;text-align:center;margin:55px 0;}
 
 header {
     height:115px;
@@ -253,9 +275,6 @@ nav#navigation ul li {
 <!--end of hamburger nav-->
 
 
-
-
-
 input{
 	width:100%;
 }
@@ -277,6 +296,7 @@ about-work{
 	margin:10px;
 }
 
+<!--image hover-->
 .overlay {
   width: auto;
   height: auto;
@@ -290,9 +310,9 @@ about-work{
 
 .overlay .magnifier {
   display: block;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,106,145,0.8);
   position: absolute;
-  text-align: left;
+  text-align: center;
   left:0;
   top: 0;
   width: 100%;
@@ -302,6 +322,7 @@ right: 0;
   -webkit-transition: all 0.2s ease-in-out;
   opacity: 0;
   transform: scale(1);
+  background-blend-mode:multiply;
 }
 
 .overlay:hover .magnifier {
@@ -317,3 +338,6 @@ right: 0;
   top: 50%;
   margin-top: 10px;
 }
+
+<!--end of image hover-->
+
