@@ -4,19 +4,52 @@
 /*<!--color-->*/
 h1{
 	color:#9fd9d8;
+	font-size:60px;
 }
 
 h2{
 	color:#006a91;
+	font-size:40pt;
 }
 
 h3, h4{
 	color:#FFFFFF;
 }
 
-h6, p{
+h5, h6, p{
 	color:#073255;
 }
+
+ul{
+	color:#9fd9d8;
+}
+
+/*<!--type-->*/
+h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-size:12pt;
+	line-height:21pt;
+}
+
+h5{
+	font-size:14pt;
+}
+
+.project-page-headings h1{
+	font-size:35pt;
+	line-height:40pt;
+}
+
+.project-page-headings h2{
+	font-size:20pt;
+	line-height:25pt;
+}
+
+
+
 
 
 
@@ -107,7 +140,7 @@ nav#navigation ul li {
 nav#navigation ul li a {
     text-align:center;
     display:block;
-    color:#000;
+    color:#9fd9d8;
     padding:10px 0;
     border-radius:5px;
     -webkit-transition:all .5s;
@@ -121,8 +154,7 @@ nav#navigation ul li.current a {
 }
 
 nav#navigation ul li a:hover {
-    background:#2196f3;
-    color:#ffffff;
+    color:#073255;
 }
 
 @media only screen and (max-width : 900px) {
@@ -140,7 +172,7 @@ nav#navigation .nav-trigger span {
     display:block;
     width:20px;
     height:2px;
-    background:#FFF;
+    background:#9fd9d8;
     top:18px;
     left:50%;
     margin-left:-10px;
