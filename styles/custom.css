@@ -3,8 +3,10 @@
 
 /*<!--color-->*/
 h1{
-	color:#9fd9d8;
+	color:#006a91;
 	font-size:60px;
+	margin:20px;
+	font-weight:100;
 }
 
 h2{
@@ -32,6 +34,11 @@ h1, h2, h3, h4, h5, h6, p{
 p{
 	font-size:12pt;
 	line-height:21pt;
+	font-weight:100;
+}
+
+h4{
+	font-weight:200;
 }
 
 h5{
@@ -39,22 +46,30 @@ h5{
 }
 
 .project-page-headings h1{
-	font-size:35pt;
-	line-height:40pt;
+	font-size:40px;
+	line-height:48px;
+	color:#97c641;
+	margin: 0;
+	font-weight:400;
 }
 
 .project-page-headings h2{
 	font-size:20pt;
 	line-height:25pt;
+	font-weight:300;
 }
 
 
+.
 
 
+.row{
+	max-width: 70em;
+}
 
 
 nav img {
-	width: 75px;
+	width: 100px;
 }
 
 nav{
@@ -90,7 +105,7 @@ ul, li {margin:0;padding:0;}
 a {text-decoration:none;}
 
 header {
-    height:115px;
+    height:250px;
 }
 
 header .container {
@@ -108,9 +123,8 @@ a#logo {
 
 nav#navigation {
     height:38px;
-    float:right;
     position:relative;
-    margin-top: 30px;
+    margin-top: 50px;
     width:65%;
 }
 
@@ -121,7 +135,7 @@ nav#navigation .nav-trigger {
     right:0;
     width:38px;
     height:38px;
-    background:#212121;
+    background:#9fd9d8;
     overflow:hidden;
     text-indent:100%;
     white-space:nowrap;
@@ -133,14 +147,14 @@ nav#navigation ul li {
     float:left;
     list-style:none;
     text-align:center;
-    width:24%;
+    width:15%;
     margin-left:1%;
 }
 
 nav#navigation ul li a {
     text-align:center;
     display:block;
-    color:#9fd9d8;
+    color:#073255;
     padding:10px 0;
     border-radius:5px;
     -webkit-transition:all .5s;
@@ -154,8 +168,9 @@ nav#navigation ul li.current a {
 }
 
 nav#navigation ul li a:hover {
-    color:#073255;
+    color:#9fd9d8;
 }
+
 
 @media only screen and (max-width : 900px) {
 nav#navigation {
@@ -172,7 +187,7 @@ nav#navigation .nav-trigger span {
     display:block;
     width:20px;
     height:2px;
-    background:#9fd9d8;
+    background:#FFF;
     top:18px;
     left:50%;
     margin-left:-10px;
@@ -249,7 +264,7 @@ nav#navigation ul {
     position:absolute;
     right:0;
     top:38px;
-    background:#212121;
+    background:#9fd9d8;
     visibility:hidden;
     z-index:50;
     -webkit-backface-visibility:hidden;
@@ -367,7 +382,7 @@ about-work{
   width: 100%;
   height: 100%;
   bottom: 0;
-right: 0;
+  right: 0;
   -webkit-transition: all 0.2s ease-in-out;
   opacity: 0;
   transform: scale(1);
