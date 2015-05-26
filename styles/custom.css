@@ -68,11 +68,15 @@ h5{
 }
 
 
-nav img {
+nav img, .ap-logo img {
 	width: 100px;
 }
 
 nav{
+	margin:10px;
+}
+
+img{
 	margin:10px;
 }
 
@@ -110,6 +114,10 @@ header {
 
 header .container {
     padding:0 5%;
+}
+
+nav a{
+	margin-top: 65px;
 }
 
 a#logo {
@@ -172,7 +180,7 @@ nav#navigation ul li a:hover {
 }
 
 
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 1025px) {
 nav#navigation {
     position:absolute;
     width:90%;
@@ -343,10 +351,6 @@ input{
 	width:100%;
 }
 
-img{
-	margin:10px;
-}
-
 img-hover{
   display: block;
   position: relative;
@@ -360,7 +364,7 @@ about-work{
 	margin:10px;
 }
 
-<!--image hover-->
+/*<!--image hover-->*/
 .overlay {
   width: auto;
   height: auto;
