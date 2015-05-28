@@ -1,115 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*<!--color-->*/
-h1{
-	color:#006a91;
-	font-size:60px;
-	margin:20px;
-	font-weight:100;
-}
-
-h2{
-	color:#006a91;
-	font-size:40pt;
-}
-
-h3, h4{
-	color:#FFFFFF;
-}
-
-h5, h6, p{
-	color:#073255;
-}
-
-ul{
-	color:#9fd9d8;
-}
-
-/*<!--type-->*/
-h1, h2, h3, h4, h5, h6, p{
-	font-family: 'Raleway', sans-serif;
-}
-
-p{
-	font-size:12pt;
-	line-height:21pt;
-	font-weight:100;
-}
-
-h4{
-	font-weight:200;
-}
-
-h5{
-	font-size:14pt;
-}
-
-.project-page-headings h1{
-	font-size:40px;
-	line-height:48px;
-	color:#97c641;
-	margin: 0;
-	font-weight:400;
-}
-
-.project-page-headings h2{
-	font-size:20pt;
-	line-height:25pt;
-	font-weight:300;
-}
-
-
-.
-
-
-.row{
-	max-width: 70em;
-}
-
-
-nav img, .ap-logo img {
-	width: 100px;
-}
-
-nav{
-	margin:10px;
-}
-
-img{
-	margin:10px;
-}
-
-
-/*<!--contact form-->*/
-input[type="text"], input[type="email"], input[type="url"], input[type="color"], textarea {
-	border-color:#97c641;
-	border-width:1.5px;
-	box-shadow:none;
-}
-::-webkit-input-placeholder {
-   color: #006a91;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #006a91;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #006a91;  
-}
-
-:-ms-input-placeholder {  
-   color: #006a91;  
-}
-
-
-/*<!--hamburger navigation-->*/
+/*hamburger navigation*/
 ul, li {margin:0;padding:0;}
 a {text-decoration:none;}
 
 header {
-    height:250px;
+    height:275px;
 }
 
 header .container {
@@ -178,9 +75,185 @@ nav#navigation ul li.current a {
 nav#navigation ul li a:hover {
     color:#9fd9d8;
 }
+/*end of nav*/
+
+/*color*/
+h1{
+	color:#006a91;
+	font-size:60px;
+	margin:20px;
+	font-weight:200;
+}
+
+h2{
+	color:#006a91;
+	font-size:40px;
+}
+
+h3, h4{
+	color:#FFFFFF;
+}
+
+h5, h6, p{
+	color:#073255;
+}
+
+ul{
+	color:#9fd9d8;
+}
+
+/*<!--type-->*/
+h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-size:18px;
+	line-height:30px;
+	font-weight:100;
+}
+
+h4{
+	font-weight:200;
+}
+
+h5{
+	font-size:18px;
+}
+
+.about{
+	margin-top: 100px;
+}
+
+
+
+.row{
+	max-width: 70em;
+}
+
+
+nav img, .ap-logo img {
+	width: 100px;
+}
+
+nav{
+	margin:10px;
+}
+
+overlay{
+	margin:10px;
+}
+
+.socail-media-icons{
+	height:50px;
+	width:50px;
+}
+
+.button.radius{
+	border-radius: 0;
+}
+
+.skills-icon{
+	margin: auto;
+}
+
+
+/*contact form*/
+input[type="text"], input[type="email"], input[type="url"], input[type="color"], textarea {
+	border-color:#97c641;
+	border-width:1.5px;
+	box-shadow:none;
+}
+::-webkit-input-placeholder {
+   color: #006a91;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #006a91;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #006a91;  
+}
+
+:-ms-input-placeholder {  
+   color: #006a91;  
+}
+/*end of contact form*/
+
+
+/*project page */
+.project-page-headings h1{
+	font-size:45px;
+	line-height:50px;
+	color:#97c641;
+	margin: 0;
+	font-weight:400;
+}
+
+.project-page-headings h2{
+	font-size:35px;
+	line-height:40px;
+	font-weight:300;
+}
+
+.project-page-headings p{
+	font-size:16px;
+	line-height:33px;
+}
+
+.project-page-headings{
+	margin-left:10px;
+}
+
+.project-page img{
+	margin-top:28px;	
+}
+
+.project-page-buttons{
+	margin-top: 65px;
+}
+/*end of project page */
 
 
 @media only screen and (max-width : 1025px) {
+	
+h1{
+	font-size:50px;
+}
+
+h2{
+	font-size:35pt;
+	
+}
+
+h4{
+	font-weight:200;
+}
+
+h5{
+	font-size:14pt;
+}
+
+.project-page-headings h1{
+	font-size:30px;
+	line-height:38px;
+}
+
+.project-page-headings h2{
+	font-size:20pt;
+	line-height:20pt;
+	font-weight:300;
+}
+
+p{
+	font-size:14px;
+}
+
+.row{
+	max-width:50em;
+}
+	
 nav#navigation {
     position:absolute;
     width:90%;
@@ -340,6 +413,15 @@ nav#navigation ul li.last a:hover {
 }
 
 @media only screen and (max-width : 500px) {
+
+h1, h2, h3, h4, h5, h6, p{
+	margin:30px;
+}
+
+.row{
+	max-width:50em;
+}
+
 nav#navigation ul li {
     width:100%;
 }
