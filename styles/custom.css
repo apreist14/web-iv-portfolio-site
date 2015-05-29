@@ -153,11 +153,6 @@ overlay{
 	border-radius: 0;
 }
 
-.skills-icon{
-	margin: auto;
-}
-
-
 /*contact form*/
 input[type="text"], input[type="email"], input[type="url"], input[type="color"], textarea {
 	border-color:#97c641;
@@ -181,6 +176,11 @@ input[type="text"], input[type="email"], input[type="url"], input[type="color"],
 }
 /*end of contact form*/
 
+
+.footer{
+	margin-top:70px;
+	margin-bottom:30px;
+}
 
 /*project page */
 .project-page-headings h1{
@@ -211,7 +211,7 @@ input[type="text"], input[type="email"], input[type="url"], input[type="color"],
 }
 
 .project-page-buttons{
-	margin-top: 65px;
+	margin-top: 75px;
 }
 /*end of project page */
 
