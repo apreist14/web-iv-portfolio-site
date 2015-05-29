@@ -149,13 +149,21 @@ overlay{
 	margin:10px;
 }
 
-.socail-media-icons{
+
+
+/*social media icons*/
+.social-media-icons{
 	height:30px;
 	width:30px;
 }
 
-.socail-media-icons: hover{
-	background-image:url(../images/social-icon-facebook-hover.svg);
+.social-media-icons ul{
+	list-style: none;
+	display: inline;
+}
+
+.social-media-facebook-icon:hover{
+	background-image:url(../images/social-icon-facebook-hover.svg)
 }
 
 .button.radius{
@@ -163,7 +171,7 @@ overlay{
 }
 
 /*contact form*/
-input[type="text"], input[type="email"], input[type="url"], input[type="color"], textarea {
+input[type="text"], input[type="email"], textarea {
 	border-color:#97c641;
 	border-width:1.5px;
 	box-shadow:none;
