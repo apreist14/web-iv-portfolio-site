@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+body{
+	background-size:cover
+}
+
 /*hamburger navigation*/
 ul, li {margin:0;padding:0;}
 a {text-decoration:none;}
@@ -15,6 +20,9 @@ header .container {
 
 nav a{
 	margin-top: 65px;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	font-size:18px;
 }
 
 a#logo {
@@ -75,6 +83,14 @@ nav#navigation ul li.current a {
 nav#navigation ul li a:hover {
     color:#9fd9d8;
 }
+
+nav img, .ap-logo img {
+	width: 100px;
+}
+
+nav{
+	margin:10px;	
+}
 /*end of nav*/
 
 /*color*/
@@ -121,23 +137,12 @@ h5{
 	font-size:18px;
 }
 
-.about{
+.about, .contact{
 	margin-top: 100px;
 }
 
-
-
 .row{
 	max-width: 70em;
-}
-
-
-nav img, .ap-logo img {
-	width: 100px;
-}
-
-nav{
-	margin:10px;
 }
 
 overlay{
@@ -145,8 +150,12 @@ overlay{
 }
 
 .socail-media-icons{
-	height:50px;
-	width:50px;
+	height:30px;
+	width:30px;
+}
+
+.socail-media-icons: hover{
+	background-image:url(../images/social-icon-facebook-hover.svg);
 }
 
 .button.radius{
@@ -174,6 +183,12 @@ input[type="text"], input[type="email"], input[type="url"], input[type="color"],
 :-ms-input-placeholder {  
    color: #006a91;  
 }
+
+.message-input input{
+	padding-top:20px;
+	padding-bottom:100px;
+}
+
 /*end of contact form*/
 
 
@@ -214,6 +229,10 @@ input[type="text"], input[type="email"], input[type="url"], input[type="color"],
 	margin-top: 75px;
 }
 /*end of project page */
+
+.button{
+	background-color:#97c641;
+}
 
 
 @media only screen and (max-width : 1025px) {
