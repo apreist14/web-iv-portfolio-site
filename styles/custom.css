@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
-
+	
 body{
 	background-size:cover
 }
@@ -302,15 +301,25 @@ input[type="text"], input[type="email"], textarea {
 .project-page-buttons h5{
 	font-weight:600;
 	color:#97c641;
+	font-size:18px;
 }
 /*end of project page */
 
 .button{
-	background-color:#97c641;
+	background-image:url(../images/button-boarder.svg);
+	background-color:#FFFFFF;
+	border-color:#FFFFFF;
 	padding-right: 0;
 	padding-left:0;
-	width:100;
+	background-repeat:no-repeat;
 }
+
+button:hover, button:focus, .button:hover, .button:focus {
+	background-color:#97c641;	
+	color:#FFFFFF;
+	border-color:#FFFFFF;
+}
+
 
 
 
@@ -549,8 +558,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 
-.footer{
-	margin:0;
+.footer p{
+	margin:5px;
 }
 
 
