@@ -149,7 +149,66 @@ overlay{
 	margin:10px;
 }
 
+input{
+	width:100%;
+}
 
+img-hover{
+  display: block;
+  position: relative;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #652C90, #3A0256);
+}
+
+about-work{
+	margin:10px;
+}
+
+/*<!--image hover-->*/
+.overlay {
+  width: auto;
+  height: auto;
+  position: relative;
+  -webkit-transition: all 0.2s;
+}
+
+.overlay img {
+  -webkit-transition: all 0.2s;
+}
+
+.overlay .magnifier {
+  display: block;
+  background: rgba(0,106,145,0.8);
+  position: absolute;
+  text-align: center;
+  left:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  opacity: 0;
+  transform: scale(1);
+  background-blend-mode:multiply;
+}
+
+.overlay:hover .magnifier {
+  opacity:2; 
+  transform: scale(1);
+
+  visibility: visible;
+}
+
+.overlay .magnifier .content {
+  width:100%;
+  position: relative;
+  top: 50%;
+  margin-top: 10px;
+}
+/*<!--end of image hover-->*/
 
 /*social media icons*/
 .social-media-icons{
@@ -203,7 +262,10 @@ input[type="text"], input[type="email"], textarea {
 .footer{
 	margin-top:70px;
 	margin-bottom:30px;
+	text-align:center;
+	padding:10px 0px;
 }
+
 
 /*project page */
 .project-page-headings h1{
@@ -236,54 +298,42 @@ input[type="text"], input[type="email"], textarea {
 .project-page-buttons{
 	margin-top: 75px;
 }
+
+.project-page-buttons h5{
+	font-weight:600;
+	color:#97c641;
+}
 /*end of project page */
 
 .button{
 	background-color:#97c641;
+	padding-right: 0;
+	padding-left:0;
+	width:100;
 }
+
+
+
 
 
 @media only screen and (max-width : 1025px) {
-	
-h1{
-	font-size:50px;
-}
-
-h2{
-	font-size:35pt;
-	
-}
-
-h4{
-	font-weight:200;
-}
-
-h5{
-	font-size:14pt;
-}
-
-.project-page-headings h1{
-	font-size:30px;
-	line-height:38px;
-}
-
-.project-page-headings h2{
-	font-size:20pt;
-	line-height:20pt;
-	font-weight:300;
-}
-
-p{
-	font-size:14px;
-}
 
 .row{
 	max-width:50em;
 }
-	
+
+header {
+    height:100px;
+}
+
+.ap-logo{
+	margin-bottom:60px;
+}
+
+/*nav*/
 nav#navigation {
     position:absolute;
-    width:90%;
+	width:80%;
 }
 
 nav#navigation .nav-trigger {
@@ -437,84 +487,71 @@ nav#navigation ul li.last a {
 nav#navigation ul li.last a:hover {
     border:0;
 }
+/*end of nav*/	
+
+h1{
+	font-size:50px;
+}
+
+h2{
+	font-size:35pt;
+	margin-top:8px;
+	
+}
+
+h4{
+	font-weight:200;
+}
+
+h5{
+	font-size:14pt;
+}
+
+p{
+	font-size:14px;
+}
+
+/*project page*/
+.project-page-headings h1{
+	font-size:30px;
+	line-height:38px;
+}
+
+.project-page-headings h2{
+	font-size:20pt;
+	line-height:20pt;
+	font-weight:300;
+}
+	
+
 }
 
 @media only screen and (max-width : 500px) {
-
-h1, h2, h3, h4, h5, h6, p{
-	margin:30px;
+	
+	header {
+    height:130px;
 }
 
 .row{
 	max-width:50em;
 }
 
+.ap-logo{
+	margin-bottom:40px;
+}
+
 nav#navigation ul li {
     width:100%;
 }
-}
-/*<!--end of hamburger nav-->*/
 
-
-input{
-	width:100%;
+h1, h2, h3, h4, h5, h6, p{
+	margin:30px;
 }
 
-img-hover{
-  display: block;
-  position: relative;
-  float: left;
-  width: 50%;
-  overflow: hidden;
-  background: linear-gradient(to bottom, #652C90, #3A0256);
+
+.footer{
+	margin:0;
 }
 
-about-work{
-	margin:10px;
-}
 
-/*<!--image hover-->*/
-.overlay {
-  width: auto;
-  height: auto;
-  position: relative;
-  -webkit-transition: all 0.2s;
-}
-
-.overlay img {
-  -webkit-transition: all 0.2s;
-}
-
-.overlay .magnifier {
-  display: block;
-  background: rgba(0,106,145,0.8);
-  position: absolute;
-  text-align: center;
-  left:0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  right: 0;
-  -webkit-transition: all 0.2s ease-in-out;
-  opacity: 0;
-  transform: scale(1);
-  background-blend-mode:multiply;
-}
-
-.overlay:hover .magnifier {
-  opacity:2; 
-  transform: scale(1);
-
-  visibility: visible;
-}
-
-.overlay .magnifier .content {
-  width:100%;
-  position: relative;
-  top: 50%;
-  margin-top: 10px;
-}
-
-/*<!--end of image hover-->*/
 
