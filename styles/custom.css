@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
-	
+
+.skills-icon{
+	width:800px;
+	align-content:center;
+	margin-top:85px;
+}
 
 body{
 	background-size:cover
@@ -93,6 +98,10 @@ nav{
 }
 /*end of nav*/
 
+.row{
+	max-width: 70em;
+}
+
 /*color*/
 h1{
 	color:#006a91;
@@ -139,17 +148,18 @@ h5{
 }
 
 .about, .contact{
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
-.row{
-	max-width: 70em;
+.about p{
+	margin-top: 20px;
+	margin-bottom:20px;
 }
 
-.overlay{
-	margin-top:25px;
+.contact p{
+	margin-top:20px;
 }
-
+	
 input{
 	width:100%;
 }
@@ -172,6 +182,7 @@ about-work{
   width: auto;
   height: auto;
   position: relative;
+  margin-top:25px;
   -webkit-transition: all 0.2s;
 }
 
@@ -212,18 +223,18 @@ about-work{
 /*<!--end of image hover-->*/
 
 /*social media icons*/
-.social-media-icons{
-	height:30px;
-	width:30px;
-}
 
-.social-media-icons ul{
+
+.social-media-icons li{
 	list-style: none;
 	display: inline;
+	width:50px;
+	float:left;
+	margin-right:15px;
 }
 
-.social-media-facebook-icon:hover{
-	background-image:url(../images/social-icon-facebook-hover.svg)
+.social-media-icons li: hover{
+	background-image:url(../images/social-icon-facebook-hover.svg);
 }
 
 .button.radius{
@@ -288,7 +299,11 @@ input[type="text"], input[type="email"], textarea {
 }
 
 .project-page-buttons{
-	margin-top: 75px;
+	margin-top: 125px;
+}
+
+.project-page-buttons img{
+	width:100%;
 }
 
 .project-page-buttons h5{
@@ -296,6 +311,8 @@ input[type="text"], input[type="email"], textarea {
 	color:#97c641;
 	font-size:18px;
 }
+
+
 /*end of project page */
 
 .button{
@@ -314,8 +331,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 .footer{
-	margin-top:70px;
-	margin-bottom:30px;
+	margin-top:120px;
+	margin-bottom:25px;
 	text-align:center;
 	padding:10px 0px;
 }
@@ -606,7 +623,7 @@ h2{
   visibility:hidden;
   text-decoration:none;
   transition:transform 1s;}
-
+]
 }
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
