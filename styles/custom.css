@@ -2,7 +2,6 @@
 /* CSS Document */
 	
 
-
 body{
 	background-size:cover
 }
@@ -131,7 +130,8 @@ p{
 }
 
 h4{
-	font-weight:200;
+	font-weight:100;
+	margin-top:2px;
 }
 
 h5{
@@ -570,9 +570,14 @@ h2{
 	
 }
 
+.overlay{
+	margin-top:10px;
+}
+
 .footer p{
 	margin:5px;
 }
+
 
   div.small-12.columns.show-for-small-only{
     margin-top:-94px;
