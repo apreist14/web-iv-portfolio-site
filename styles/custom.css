@@ -1,10 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.project-page-column{
-	
-}
-
 body{
 	background-size:cover
 }
@@ -90,6 +86,7 @@ nav#navigation ul li a:hover {
 
 nav img, .ap-logo img {
 	width: 100px;
+	margin-top:-60px;
 }
 
 nav{
@@ -283,7 +280,9 @@ input[type="text"], input[type="email"], textarea {
 	padding-right: 0;
 	padding-left:0;
 	background-repeat:no-repeat;
-	width:100%;
+	background-size:100%;
+	color:#97c641;
+	height:50px;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
@@ -361,7 +360,6 @@ header {
 
 .ap-logo{
 	margin-bottom:60px;
-	margin-top:-70px;
 }
 
 /*nav*/
