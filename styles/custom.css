@@ -283,6 +283,7 @@ input[type="text"], input[type="email"], textarea {
 	padding-right: 0;
 	padding-left:0;
 	background-repeat:no-repeat;
+	width:100%;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
@@ -360,6 +361,7 @@ header {
 
 .ap-logo{
 	margin-bottom:60px;
+	margin-top:-70px;
 }
 
 /*nav*/
