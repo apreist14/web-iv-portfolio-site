@@ -302,6 +302,14 @@ button:hover, button:focus, .button:hover, .button:focus {
 	text-align:center;
 }
 
+.info p{
+	color:#073255;
+}
+
+.info p:hover{
+	color:#9fd9d8;
+}
+
 /*project page */
 .project-page-headings h1{
 	font-size:45px;
