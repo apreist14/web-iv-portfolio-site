@@ -504,8 +504,6 @@ nav#navigation ul li a:hover {
 	color:#073255;
 }
 
-
-
 nav#navigation ul li.last a {
     background:none;
     border:0;
@@ -554,8 +552,14 @@ p{
 	margin-top:15px;
 }
 
+/*skills media icons*/
 .skills-icon{
+	width:600px;
 	margin-top:25px;
+}
+
+.skills-icon p{
+	font-size:20px;
 }
 
 /*social media icons*/
