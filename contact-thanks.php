@@ -52,23 +52,6 @@
 	
 	</main>
     
-        <footer>
-      <div class="row footer">
-        <div class="large-4 medium-4 columns">
-          <p>&copy; Copyright Ashley Preister</p>
-        </div>
-        <div class="info large-4 medium-4 columns">
-          <a href="mailto:hello@ashleypreister.com">
-            <p>hello@ashleypreister.com</p>
-          </a>
-        </div>
-        <div class="info large-4 medium-4 columns">
-          <a href="tel:1(402)-920-1433">
-            <p>402.920.1433</p>
-          </a>
-        </div>
-      </div>
-    </footer>
 	
 
 
