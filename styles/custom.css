@@ -230,8 +230,8 @@ img-hover{
 	margin-top:35px;
 }
 
-.social-media-icons a: hover{
-	background-image:url(../images/social-icon-facebook-hover.svg);
+.path-twitter:hover, .path-facebook:hover, .path-instagram:hover, .path-linkedin:hover{
+	fill: #006a91;
 }
 
 /*skills media icons*/
