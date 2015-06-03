@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.clear-padding{
+  margin-right: 20px;
+  }
+
+
 body{
 	background-size:cover
 }
@@ -229,7 +234,7 @@ img-hover{
 	margin-top:35px;
 }
 
-.social-media-icons ul: hover{
+.social-media-icons a: hover{
 	background-image:url(../images/social-icon-facebook-hover.svg);
 }
 
@@ -374,7 +379,12 @@ header {
 /*nav*/
 nav#navigation {
     position:absolute;
-	width:80%;
+	width:90%;
+	position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
 }
 
 nav#navigation .nav-trigger {
@@ -615,6 +625,10 @@ p{
 
 .ap-logo{
 	margin-bottom:40px;
+	margin-top:75px;
+}
+
+.project-ap-logo{
 	margin-top:40px;
 }
 
