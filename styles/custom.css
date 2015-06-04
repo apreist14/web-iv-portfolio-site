@@ -685,17 +685,19 @@ h2{
 }
 
 .project-page-headings h1{
-	font-size:35px;
+	font-size:40px;
 	line-height:44px;
 	margin-left:30px;
 }
 
-.project page h2{
-	font-size:25px;
+.project-page h2{
+	font-size:30px;
 }
 
 .project-page h3{
-	font-size:20px;
+	font-size:25px;
+}
+
 }
 
 
