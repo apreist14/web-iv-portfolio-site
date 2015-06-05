@@ -710,18 +710,18 @@ h2{
 	margin:5px;
 }
 
-.project-page-headings h1,{
+.project-page-headings h1{
 	font-size:40pt;
 	line-height:44pt;
-	margin-left:30pt;
+	margin-left:30px;
 }
 
-.project-page h2,{
+.project-page h2{
 	font-size:25pt;
 	line-height:34pt;
 }
 
-.project-page h3,{
+.project-page h3{
 	font-size:25pt;
 }
 
