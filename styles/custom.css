@@ -202,7 +202,6 @@ img-hover{
   -webkit-transition: all 0.2s ease-in-out;
   opacity: 0;
   transform: scale(1);
-  background-blend-mode:multiply;
 }
 
 .overlay:hover .magnifier {
