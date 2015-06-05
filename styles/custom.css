@@ -224,15 +224,18 @@ img-hover{
 .social-media-icons li{
 	list-style: none;
 	display: inline;
-	width:50px;
+	width:80px;
 	float:left;
-	margin-right:15px;
 	margin-top:35px;
 }
 
-.social-media-icons: hover{
-	background-image:url(../images/social-icon-hover.svg);	
-}
+.social-icon:hover img:first-child {
+    display: none;
+  }
+  
+  .social-icon:hover img:last-child {
+    display: inline-block;
+  }
 
 /*skills media icons*/
 .skills-icon{
