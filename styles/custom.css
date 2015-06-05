@@ -230,8 +230,8 @@ img-hover{
 	margin-top:35px;
 }
 
-.path-twitter:hover, .path-facebook:hover, .path-instagram:hover, .path-linkedin:hover{
-	fill: #006a91;
+.social-media-icons: hover{
+	background-image:url(../images/social-icon-hover.svg);	
 }
 
 /*skills media icons*/
@@ -251,6 +251,7 @@ input[type="text"], input[type="email"], textarea {
 	border-color:#97c641;
 	border-width:1.5px;
 	box-shadow:none;
+	color:#073255;
 }
 ::-webkit-input-placeholder {
    color: #006a91;
@@ -274,14 +275,15 @@ input[type="text"], input[type="email"], textarea {
 }
 
 /*end of contact form*/
-.button{
+
+
+.submit-button{
 	background-image:url(../images/send-button-large.svg);
 	background-color:#FFFFFF;
 	border-color:#FFFFFF;
 	padding-right: 0;
 	padding-left:0;
 	background-repeat:no-repeat;
-	background-size:100%;
 	color:#97c641;
 	height:50px;
 }
@@ -333,10 +335,12 @@ button:hover, button:focus, .button:hover, .button:focus {
 
 .project-page-headings{
 	margin-left:10px;
+	margin-top:30px;
 }
 
 .project-page img{
-	margin-top:8px;	
+	margin-bottom:30px;	
+	margin-top:30px;
 }
 
 .project-page-buttons{
@@ -353,6 +357,23 @@ button:hover, button:focus, .button:hover, .button:focus {
 	color:#97c641;
 	font-size:18px;
 }
+
+.project-page-buttons .button{
+	  border-radius: 0;
+	  background-color: #FFFFFF;
+	  border-style: solid;
+	   border-color: #97c641;
+	  border-width: 2px;
+	  box-shadow: none;	
+	  color:#97c641;
+}
+
+.project-page-buttons .button:hover {
+	background-color:#006a91;
+	color:#FFFFFF;
+	border-color:#006a91;
+}
+
 /*end of project page */
 
 
@@ -369,8 +390,8 @@ header {
 }
 
 .ap-logo{
-	margin-bottom:60px;
-	margin-top:60px;
+	margin: 60px 0px 60px;
+	align-content: center;
 }
 
 /*nav*/
@@ -671,7 +692,8 @@ h2{
 }
 
 .skills-icon p{
-	font-size:18px;
+	font-size:18pt;
+	text-align:center;
 }
 
 .social-media-icons li{
@@ -684,19 +706,27 @@ h2{
 	margin:5px;
 }
 
-.project-page-headings h1{
-	font-size:40px;
-	line-height:44px;
-	margin-left:30px;
+.project-page-headings h1,{
+	font-size:40pt;
+	line-height:44pt;
+	margin-left:30pt;
 }
 
-.project-page h2{
-	font-size:30px;
+.project-page h2,{
+	font-size:25pt;
+	line-height:34pt;
 }
 
-.project-page h3{
-	font-size:25px;
+.project-page h3,{
+	font-size:25pt;
 }
+
+p{
+	font-size:14pt;
+	line-height: 25pt;
+}
+
+
 
 }
 
