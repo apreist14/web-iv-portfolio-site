@@ -525,7 +525,7 @@ nav#navigation ul.is-visible {
     transform:scale(1);
     -webkit-transition:-webkit-transform 0.5s,visibility 0 0;
     -moz-transition:-moz-transform 0.5s,visibility 0 0;
-    transition:transform 0.5s,visibility 0 0;
+    transition:-webkit-transform 0.5s,visibility 0 0;
 }
 
 nav#navigation ul.is-visible li a {
