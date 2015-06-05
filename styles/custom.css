@@ -470,7 +470,7 @@ nav#navigation .nav-trigger.open span {
 }
 
 nav#navigation .nav-trigger.open span::before,.nav-trigger.open span::after {
-    background:#FFFFF;
+    background:#FFF;
 }
 
 nav#navigation .nav-trigger.open span::before {
